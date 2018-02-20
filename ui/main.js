@@ -31,5 +31,7 @@ button.onclick= function()
             span.innerHTML=counter.toString();
         }
     };
-    
+    //make the request
+    request.open('GET','http://keertikamath.imad.hasura-app.io',true);
+    request.send(null);
 };
